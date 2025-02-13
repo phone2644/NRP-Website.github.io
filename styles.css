@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -11,13 +11,15 @@ header {
     background-color: white;
 }
 
+
+.logo {
+
+}
+
 .logo img {
     height: 230px;
     padding: 50px 70px;
 }
-
-
-
 
 
 nav ul {
@@ -47,4 +49,93 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #9a6f30;
     border-radius: 10px;
+}
+
+
+.item5 {
+    text-align: center;
+
+}
+
+.buttons5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons6 {
+    flex: 1 1 calc(60% - 10px);
+    min-width: 300px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+.buttons6 img {
+    width: 100%;
+    justify-content: center;
+    height: 100%;    
+  object-fit: cover; /* ปรับภาพให้เต็มพื้นที่ โดยไม่เสียสัดส่วน */
+
+}
+
+.buttons7 {
+    flex: 1 1 calc(35% - 10px);
+    min-width: 300px;
+    padding: 1px;
+    text-align: center;
+    background-color: #9a6f30;
+}
+
+.buttons71 {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 30px;
+    margin-top: 110px;
+
+}
+
+.buttons71 h1 {
+    font-size: 60px;
+    margin: 0 0 5px;
+    color: #ffffff;
+    font-weight: bold; /* หรือใช้ค่า 700 */
+    text-align: end;
+}
+
+.buttons71 p {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: end;
+}
+
+.buttons71 p1 {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: end;
+
+}
+
+.buttons8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    padding: 0.1px 0.1px;
+    max-width: 500px;
+    margin: 20px auto;
+    height: auto;
+}
+
+.buttons8 a {
+    margin: 1rem 0;
+    color: rgb(255, 255, 255);
+}
+
+.buttons8 img {
+    width: 100%;
+    /* ขยายภาพให้เต็มพื้นที่ที่กำหนด */
+    object-fit: cover;
+    /* ปรับภาพให้เต็มพื้นที่ โดยไม่เสียสัดส่วน */
 }
