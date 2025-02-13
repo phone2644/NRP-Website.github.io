@@ -3,6 +3,13 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.start{
+    background-color: #b68642;
+    padding: 17px;
+    width: 100%;
+
+}
+
 header {
     display: flex;
     /* align-items: center; */
@@ -17,20 +24,21 @@ header {
 }
 
 .logo img {
-    height: 230px;
-    padding: 50px 70px;
+    height: 120px;
+    padding: 20px 50px;
 }
 
 
 nav ul {
     list-style: none;
-    margin: 0;
-    margin-top: 160px;
+    /* margin: 0; */
+    margin-top: 50px;
     padding: 10px 60px;
-    display: flex;
+    display: flex
+;
     background-color: #b68642;
     border-radius: 10px;
-    gap: 100px;
+    gap: 50px;
 }
 
 nav ul li {
@@ -39,7 +47,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 20px 10px;
+    padding: 15px 10px;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -98,34 +106,49 @@ nav ul li a:hover {
 }
 
 .buttons71 h1 {
-    font-size: 60px;
+    font-size: 70px;
     margin: 0 0 5px;
     color: #ffffff;
     font-weight: bold; /* หรือใช้ค่า 700 */
-    text-align: end;
+    text-align: start;
 }
 
 .buttons71 p {
     font-size: 40px;
     color: #ffffff;
-    text-align: end;
+    text-align: start;
 }
 
 .buttons71 p1 {
-    font-size: 25px;
+    font-size: 20px;
+    margin: 0 0 10px;
     color: #ffffff;
-    text-align: end;
+    text-align: start;
 
 }
 
 .buttons8 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
-    padding: 0.1px 0.1px;
-    max-width: 500px;
-    margin: 20px auto;
-    height: auto;
+    column-gap: 1rem;
+    /* padding: 0.1px 0.1px; */
+    /* max-width: 500px; */
+    margin: 70px auto;
+    margin-top: 50px;
+    /* height: auto; */
+}
+
+.content-btm2{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.content-btm2 p{
+color: #9a6f30;
+font-size: 26px;
+text-align: center;
+font-weight: bold; /* หรือใช้ค่า 700 */
+margin: 5px;
 }
 
 .buttons8 a {
