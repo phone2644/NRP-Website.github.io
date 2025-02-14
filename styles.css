@@ -24,7 +24,7 @@ header {
 .logo img {
     height: 120px;
     padding: 20px 50px;
-    margin-left: 30px;
+    margin-left: 29px;
 }
 
 ***********************************************************************
@@ -156,22 +156,19 @@ header {
       }
   }
   
-  /* Show menu when active */
-  .menu.active {
-    display: flex;
-  }
-  
 
 ************************************************************************
 
 .item5 {
     text-align: center;
+    
 
 }
 
 .buttons5 {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 20px;
 }
 
 .buttons6 {
